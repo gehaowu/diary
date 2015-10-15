@@ -13,12 +13,16 @@ qr_wechat: "/labs/img/icon_wechat.png"
 
 # SNS settings
 RSS: false
-#weibo_username:     false
+weibo_username:     false
 zhihu_username:     false
 github_username:    ghw
-twitter_username:  gehaowu
+twitter_username:   gehaowu
 facebook_username:  gehaowu
 
+go_aliyun:          /go/aliyun
+go_digitalocean:    /go/digitalocean
+go_freebsd:         /go/freebsd
+go_nginx:           /go/nginx
 
 
 # Build settings

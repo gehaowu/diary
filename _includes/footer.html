@@ -14,70 +14,54 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.twitter_username %}
+                    {% if site.go_aliyun %}
                     <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <a href="{{ site.go_aliyun }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-stack-1x fa-inverse">AL</i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
-
                     <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
-                    {% if site.zhihu_username %}
+                    {% if site.go_digitalocean %}
                     <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
+                        <a target="_blank" href="{{ site.go_digitalocean }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                                <i class="fa fa-stack-1x fa-inverse">DO</i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.weibo_username %}
+                    {% if site.go_freebsd %}
                     <li>
-                        <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
+                        <a target="_blank" href="{{ site.go_freebsd }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                                <!--<i class="fa fa-weibo fa-stack-1x fa-inverse"></i>-->
+                                <i class="fa fa-stack-1x fa-inverse">FB</i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
-
-
-                    {% if site.facebook_username %}
+                    {% if site.go_nginx %}
                     <li>
-                        <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+                        <a target="_blank" href="{{ site.go_nginx }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.github_username %}
-                    <li>
-                        <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-stack-1x fa-inverse">NG</i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    Copyright &copy; 2011 - 2015 Haowu Ge. All rights reserved.
+                    <!--Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Theme by <a href="http://huangxuan.me">Hux</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="91px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
-                    </iframe>
+                    Theme by <a href="http://huangxuan.me">Hux</a> |-->
                 </p>
             </div>
         </div>
