@@ -1,6 +1,6 @@
 # Site settings
-title: XIAOQI LABS
-SEOTitle: 小柒的实验室 | XIAOQI Blog
+title: HAOWUGE LABS
+SEOTitle: 葛豪武的实验室 | HAOWUGE LABS
 header-img: img/home-bg.jpg
 email: ghw@7axu.com
 description: "与你一起发现更大的世界。"
@@ -13,7 +13,7 @@ qr_wechat: "/labs/img/icon_wechat.png"
 
 # SNS settings
 RSS: false
-weibo_username:     false
+weibo_username:     ghw
 zhihu_username:     false
 github_username:    ghw
 twitter_username:   gehaowu
@@ -45,7 +45,7 @@ kramdown:
 
 
 # Duoshuo settings
-duoshuo_username: gehaowu
+#duoshuo_username: gehaowu
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
