@@ -8,7 +8,8 @@ keyword: "芭比小柒,财务,葛豪武,个人主页,会计,小柒,Accounting,Fi
 url: "https://www.gehaowu.com"
 baseurl: "/labs"
 
-
+favicon: "/favicon.ico"
+qr_wechat: "/labs/img/icon_wechat.png"
 
 # SNS settings
 RSS: false
