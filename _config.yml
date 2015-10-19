@@ -9,7 +9,7 @@ url: "http://www.gehaowu.com.7axu.com"
 baseurl: "/diary"
 
 favicon: "/favicon.ico"
-qr_wechat: "/labs/img/icon_wechat.png"
+qr_wechat: "/diary/img/icon_wechat.png"
 
 # SNS settings
 RSS: false
