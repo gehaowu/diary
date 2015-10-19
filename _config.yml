@@ -59,7 +59,7 @@ ba_track_id: 2f0f4b0d867163a00886350ad2c21f8c
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /labs/img/avatar-hux.jpg     # use absolute URL.
+sidebar-avatar: /diary/img/avatar-hux.jpg     # use absolute URL.
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
